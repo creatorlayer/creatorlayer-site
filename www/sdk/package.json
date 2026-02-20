@@ -1,0 +1,23 @@
+{
+  "name": "creatorlayer-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for CreatorLayer API (auto-generated)",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "module": "./index.js",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "files": [
+    "*.js",
+    "*.ts",
+    "*.d.ts"
+  ],
+  "keywords": ["openapi", "sdk", "typescript", "creatorlayer"],
+  "author": "CreatorLayer",
+  "license": "MIT"
+}

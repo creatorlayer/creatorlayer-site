@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "docusaurus-plugin-openapi-docs": "^4.7.1",
+    "docusaurus-theme-openapi-docs": "^4.7.1"
+  },
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.30.0"
+  },
+  "scripts": {
+    "generate:sdk": "openapi --input https://api.creatorlayer.eu/openapi.yaml --output ./www/sdk --client fetch --useOptions --useUnionTypes"
+  }
+}
